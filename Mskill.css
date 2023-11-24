@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open sans", sans-serif;
+  border-bottom: 10px solid antiquewhite;
+}
+
+.header {
+  height: 60px;
+  padding-left: 20px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #78716c;
+}
+
+.navigation a:link {
+  margin-right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #d97706;
+}
+
+.navigation a:visited {
+  color: #78716c;
+}
+.navigation a:hover {
+  color: #92400e;
+}
+
+.footer {
+  color: #78716c;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 20px;
+}
+
+.main {
+  display: flex;
+  margin: 64px auto;
+  border-radius: 37.5px;
+  box-shadow: 20px 32px 64px 10px rgb(0, 0, 0, 0.05);
+  width: 900px;
+  /* margin: 0 auto; */
+
+  /* gap: 20px; */
+}
+
+.overall {
+  width: 450px;
+  height: 560px;
+  border-radius: 37.5px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(251, 239, 223),
+    rgb(252, 243, 231)
+  );
+  text-align: center;
+}
+
+.overall-heading {
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 64px;
+}
+
+.skills {
+  /* width: 300px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 95px;
+}
+
+.skills-heading {
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fig {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 250px;
+  border-radius: 11px;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cplus-img {
+  width: 32px;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-square-js,
+.fa-database,
+.fa-python {
+  font-size: 32px;
+}
+
+.fa-html5 {
+  color: #e67f0a;
+}
+
+.fa-css3-alt {
+  color: #0eb6d8;
+}
+
+.fa-square-js {
+  color: #e9e227;
+}
+
+.fa-database {
+  color: #edb007;
+}
+
+.fa-python {
+  color: #68ba0b;
+}
+
+.html {
+  background-color: rgb(230, 127, 10, 0.1);
+  color: rgb(230, 127, 10);
+}
+
+.css {
+  background-color: rgb(14, 182, 216, 0.1);
+  color: rgb(14, 182, 216);
+}
+
+.js {
+  background-color: rgb(255, 248, 56, 0.1);
+  color: rgb(233, 226, 39);
+}
+
+.sql {
+  background-color: rgb(237, 176, 7, 0.1);
+  color: rgb(237, 176, 7);
+}
+
+.python {
+  background-color: rgb(104, 186, 11, 0.1);
+  color: rgb(104, 186, 11);
+}
+
+.cplus {
+  background-color: rgb(65, 105, 225, 0.1);
+  color: rgb(65, 105, 225);
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 51%;
+  margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 14%;
+  border-radius: 51%;
+  margin-bottom: 80px;
+  /* height: 200px; */
+  background-image: linear-gradient(
+    to top,
+    rgb(250, 235, 215),
+    rgb(200, 188, 172)
+  );
+}
+
+.no {
+  color: initial;
+}
+
+.skill-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-no {
+  font-size: 70px;
+  font-weight: 800;
+  color: #7c746a;
+}
+
+.hundred {
+  color: #5f5952;
+  font-weight: 500;
+}
